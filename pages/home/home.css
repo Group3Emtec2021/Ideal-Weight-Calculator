@@ -13,6 +13,7 @@ p{
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   text-align: justify;
 }
+p{ text-align: center;}
 
 ion-item {
   background: white;

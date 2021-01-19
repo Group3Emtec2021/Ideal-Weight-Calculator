@@ -1,7 +1,22 @@
 ion-content {
-background : linear-gradient(to right #aa4b6b,#6b6b83, #3b8d99 );
-
+  background: radial-gradient(circle, rgba(247,117,174,1) 0%, rgba(148,187,233,1) 100%);
 }
-h2 {
-  color 
+
+h2{
+  color: black;
+  font-family: fantasy;
+  text-align: center;
+}
+
+p{
+  color: black;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: justify;
+}
+p{ text-align: center;}
+
+ion-item {
+  background: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: justify;
 }
