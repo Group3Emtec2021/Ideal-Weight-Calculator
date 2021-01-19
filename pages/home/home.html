@@ -1,12 +1,8 @@
 <ion-content padding>
-  <h2>IDEAL WEIGHT CALCULATOR by the DHALIWALNATICS</h2>
-  <p> Welcome to the Ideal Weight Calculator by the DHALIWALNATICS
-     To use this calculator, simply enter your gender, weight, and height. This will give you an ideal weight range.
+  <h2>IDEAL WEIGHT CALCULATOR</h2>
+  <p> Welcome to the Ideal Weight Calculator!
+     To use this calculator, simply enter your gender, weight, and height. This will then give you an ideal weight range.
 
-
-
-
-  
   </p>
   Source: <a href="https://www.omnicalculator.com/health/ideal-weight#how-much-should-i-weight">https://www.omnicalculator.com/health/ideal-weight#how-much-should-i-weight</a>
 
@@ -19,22 +15,21 @@
 </ion-item>
 
   <ion-item>
-    <ion-label>Height in Feet:</ion-label>
+    <ion-label color="dark"> Height in Feet:</ion-label>
     <ion-input type="number" [(ngModel)]="feet"></ion-input>
   </ion-item>
 
   <ion-item>
-    <ion-label>Height in Inches:</ion-label>
+    <ion-label color="dark"> Height in Inches:</ion-label>
     <ion-input type="number" [(ngModel)]="inches"></ion-input>
   </ion-item>
   <p> 
    
-
   <button ion-button color="primary" (click)="calculatedesired()">
     Calculate
   </button>
   <p> 
-    The DHALIWALNATICS is a company that is focused on providing the public with free health and fitness information. The DHALIWALNATICS also provides personal training servives and nutrition tips. 
+    The IDEAL WEIGHT CALCULATOR is a company that is focused on providing the public with free health and fitness information. This company also provides personal training servives and nutrition tips. 
 
   <ion-item *ngIf="rdesired">
     <h2>Ideal Weight Calculator:</h2>
