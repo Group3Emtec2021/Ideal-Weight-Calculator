@@ -10,14 +10,14 @@ h2{
 
 p{
   color: black;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: sans-serif;
   text-align: justify;
 }
 p{ text-align: center;}
 
 ion-item {
   background: white;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: sans-serif;
   text-align: justify;
 }
 
