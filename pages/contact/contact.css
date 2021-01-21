@@ -1,23 +1,31 @@
 ion-content {
   background: radial-gradient(circle, rgba(247,117,174,1) 0%, rgba(148,187,233,1) 100%);
 }
-
+p{ 
+  text-align:  center;
+  }
 h2{
   color: black;
   font-family: fantasy;
   text-align: center;
 }
-
+p{ 
+  text-align:  center;
+}
 p{
   color: black;
   font-family: sans-serif;
-  text-align: justify;
+  text-align: center;
 }
-p{ text-align: center;}
+p{ 
+  text-align:  justify;
+}
+p{ text-align: CEnter;}
 
 ion-item {
   background: white;
   font-family: sans-serif;
-  text-align: justify;
+  text-align: Justify;
+  
 }
 
