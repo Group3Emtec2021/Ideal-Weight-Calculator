@@ -11,12 +11,19 @@ h2{
 p{
   color: black;
   font-family: sans-serif;
-  text-align: justify;
+  text-align: center;
 }
-p{ text-align: center;}
+p{
+   text-align: center;
+   font-family: sans-serif;
+   }
 
 ion-item {
   background: white;
   font-family: sans-serif;
   text-align: justify;
+
+}
+p {
+  font-family: Arial;
 }

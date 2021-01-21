@@ -13,3 +13,8 @@ p{
   font-family: initial;
   text-align: center;
 }
+ion-item{
+  text-align: center;
+  color:darkmagenta;
+  font-family: sans-serif;
+}
