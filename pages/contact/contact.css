@@ -13,6 +13,10 @@ p{
   font-family: sans-serif;
   text-align: center;
 }
-ion-item{
-  color: aqua;
+ion-item
+p{
+  color: black;
+  text-align: justify
+  
+
 }
