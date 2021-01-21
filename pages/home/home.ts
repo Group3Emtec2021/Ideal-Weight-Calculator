@@ -20,6 +20,7 @@ export class HomePage {
     constructor(public navCtrl: NavController) {}
       
     calculatedesired() {
+      if (this.feet >= 5) { 
       if (this.sex === "m"){
       this.fttoinch = (this.feet - 5) * 12;
       this.rdesired = Math.round(52 + 1.9 *(this.fttoinch)+ 1.9 * this.inches);
@@ -28,7 +29,7 @@ export class HomePage {
       this.ddesired = Math.round(50 + 2.3 *(this.fttoinch)+ 2.3 * this.inches);
       this.pmessage = "kg.";
     }
-    else if (this.sex === "f") {
+      else if (this.sex === "f") {
       this.fttoinch = (this.feet - 5) * 12;
       this.rdesired = Math.round(49 + 1.7 *(this.fttoinch)+ 1.7 * this.inches);
       this.mdesired = Math.round(53.1 + 1.36 *(this.fttoinch)+ 1.36 * this.inches);
@@ -37,6 +38,15 @@ export class HomePage {
       this.pmessage = "kg.";
     }
     else{
+    }
+    }
+    else{
+      this.fttoinch = (this.feet - 5) * 12;
+      this.rdesired = 1;
+      this.mdesired = 1;
+      this.hdesired = 1;
+      this.ddesired = 1;
+      this.pmessage = "ERROR YOUR HEAIGHT MUST BE 5 FEET OR ABOVE!";
     }
   }
 }
