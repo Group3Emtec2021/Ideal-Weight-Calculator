@@ -10,11 +10,6 @@ h2{
 
 p{
   color: black;
-  font-family: initial;
-  text-align: center;
-}
-ion-item{
-  text-align: center;
-  color:darkmagenta;
   font-family: sans-serif;
+  text-align: center;
 }
